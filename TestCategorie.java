@@ -1,23 +1,25 @@
 package HotelCalifornia;
 
+//Constructor
+
 
 public class TestCategorie {
 	
-	int un;
-	int deux;
-	int trois;
-	int quatre;
-	int cinq;
-	int six;
+	String lavabo;
+	String wc;
+	String télévision;
+	String douche;
+	String bain;
+	String deuxpièces;
 	
-	public TestCategorie (int un, int deux, int trois, int quatre, int cinq, int six){
+	public TestCategorie (String lavabo, String wc, String télévision, String douche, String bain, String deuxpièces){
 		
-		this.un = un;
-		this.deux = deux;
-		this.trois = trois;
-		this.quatre = quatre;
-		this.cinq = cinq;
-		this.six = six;
+		this.lavabo = lavabo;
+		this.wc = wc;
+		this.télévision = télévision;
+		this.douche = douche;
+		this.bain = bain;
+		this.deuxpièces = deuxpièces;
 		
 		
 		
